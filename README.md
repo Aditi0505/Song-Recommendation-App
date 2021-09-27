@@ -15,4 +15,4 @@ User clicks on the genres as provided. The app returns the ratings and the name 
  * Vanilla JS
 
 
-[Live App](https://gkw9v.csb.app/ "Live App")
+[Live App](https://lu19l.csb.app/ "Live App")
