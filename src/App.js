@@ -36,14 +36,26 @@ export default function App() {
       </h1>
       <h3>Check out my favourite songs! Select a genre to get started</h3>
       {rockKey.map((genre) => (
-        <button key={genre} onClick={() => onClickHandler(genre)}>
+        <button
+          style={{
+            fontSize: "1.2rem",
+            padding: "0.5rem",
+            margin: "1rem",
+            borderRadius: "10%",
+            width: "5rem",
+            borderStyle: "none",
+            cursor: "pointer"
+          }}
+          key={genre}
+          onClick={() => onClickHandler(genre)}
+        >
           {genre}
         </button>
       ))}
       <div>
         <ul>
           {genreCollection[genre].map((song) => (
-            <div key={song.name}>
+            <div class="output" key={song.name}>
               {" "}
               <div>{song.name}</div>
               <div>{song.rating}</div>
