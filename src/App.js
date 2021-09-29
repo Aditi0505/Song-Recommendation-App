@@ -59,7 +59,7 @@ export default function App() {
       <div>
         <ul>
           {genreCollection[genre].map((song) => (
-            <div class="output" key={song.name}>
+            <div className="output" key={song.name}>
               {" "}
               <div>{song.name}</div>
               <div>{song.rating}</div>

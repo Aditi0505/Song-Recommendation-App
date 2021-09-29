@@ -10,9 +10,8 @@ User clicks on the genres as provided. The app returns the ratings and the name 
 
 ## Tech Stacks Used:
 
- * HTML
- * CSS
- * Vanilla JS
+- HTML
+- CSS
+- Vanilla JS
 
-
-[Live App](https://lu19l.csb.app/ "Live App")
+[Live App](https://f6nty.csb.app/ "Live App")
