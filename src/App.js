@@ -4,18 +4,22 @@ import { useState } from "react";
 var genreCollection = {
   rock: [
     { name: "With or Without You - U2", rating: "5/5" },
+    { name: "Fix You- Coldplay", rating: "5/5" },
     { name: "August - Taylor Swift & Bon Iver", rating: "4.5/5" }
   ],
   pop: [
     { name: "Kiss Me - Sixpence none the richer", rating: "5/5" },
+    { name: "Work - Rihanna", rating: "4.5/5" },
     { name: "No Promises - Demi Lovato", rating: "3/5" }
   ],
   indie: [
     { name: "Exile - Taylor Swift", rating: "5/5" },
+    { name: "A Sky Full of Stars- Coldplay", rating: "4.5/5" },
     { name: "Betty - Taylor Swift", rating: "3.5/5" }
   ],
   rb: [
     { name: "Blinding Lights - The Weekend", rating: "5/5" },
+    { name: "South of the Border - Ed Sheeran", rating: "5/5" },
     { name: "At my worst - Pink Sweats", rating: "4/5" }
   ]
 };
