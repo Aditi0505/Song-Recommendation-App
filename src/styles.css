@@ -21,3 +21,7 @@ button {
   border-color: #fcfcfc;
   text-align: left;
 }
+.desc {
+  margin: 1rem;
+  font-weight: bolder;
+}
